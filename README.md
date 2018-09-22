@@ -14,7 +14,9 @@ Definition of calendar:
 Usage example
 
 include_once 'fk_calendar.php';
+
 $fkCalendar = new FakeCalendar("17.11.2013");
+
 $fkCalendar->get_date_day(); // Returns Wednesday
 
 $fkCalendar->get_date_day("01.01.1990"); // Return Monday
